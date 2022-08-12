@@ -8,6 +8,10 @@ namespace MyCalc
         {
             return x + y;
         }
+        public int Sub(int x, int y)
+        {
+            return x - y;
+        }
         public int Multiply(int x, int y)
         {
             return x * y;

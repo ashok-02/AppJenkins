@@ -3,7 +3,7 @@ using MyCalc;
 
 namespace HelloApp
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -12,6 +12,7 @@ namespace HelloApp
             Calc calc = new Calc();
             Console.WriteLine($"Sum = {calc.Add(70, 80)}");
             Console.WriteLine($"Multiply = {calc.Multiply(3, 3)}");
+            Console.WriteLine($"Subtraction = {calc.Sub(5, 3)}");
             Console.ReadLine();
         }
     }
